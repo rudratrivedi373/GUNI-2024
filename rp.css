@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4d4ff;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #343333;
+   
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+.form-group input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.form-group input:focus {
+    border-color: #007bff;
+}
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="button"]:hover {
+    background: #0056b3;
+}
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    background: #343333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.result p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+}
+.result span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.average {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+}
+.not-average {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+.details {
+    background: #343333;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.details h3 {
+    color: #e74c3c;
+}
+.details p {
+    
+    font-size: 16px;
+    color: black;
+}
+.details ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.bottext{
+    font-size: 20px;
+}
+
+.btnbot{
+   border: none; 
+   background-color: #d4d4ff;
+}
+
+.btnbot a{
+    border: none;
+    background-color: rgba(34, 34, 144, 0.896);
+    color: white;
+    padding: 7px;
+    font-size: 14px;
+    line-height: 2;
+    border-radius: 5px;
+    margin-left: 40vw;
+}
+
+
+.btnbot a:hover{
+    background-color: rgb(31, 153, 31);
+    color: white;
+    cursor: pointer;
+}

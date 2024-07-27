@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Report Checker</title>
+   <link rel="stylesheet" href="rp.css">
+</head>
+<body>
+    <h1>Blood Report Checker</h1>
+    <form id="bloodReportForm">
+        <div class="form-group">
+            <label for="wbc">White Blood Cells (WBC) (cells/mcL):</label>
+            <input type="number" id="wbc" name="wbc">
+        </div>
+        <div class="form-group">
+            <label for="rbc">Red Blood Cells (RBC) (million cells/mcL):</label>
+            <input type="number" id="rbc" name="rbc" step="0.1">
+        </div>
+        <div class="form-group">
+            <label for="hemoglobin">Hemoglobin (g/dL):</label>
+            <input type="number" id="hemoglobin" name="hemoglobin" step="0.1">
+        </div>
+        <div class="form-group">
+            <label for="hematocrit">Hematocrit (%):</label>
+            <input type="number" id="hematocrit" name="hematocrit" step="0.1">
+        </div>
+        <div class="form-group">
+            <label for="platelets">Platelets (cells/mcL):</label>
+            <input type="number" id="platelets" name="platelets">
+        </div>
+        <input type="button" value="Check Report" onclick="checkReport()">
+    </form>
+    <div class="result" id="result">
+        <p>White Blood Cells (WBC): <span id="wbcResult"></span></p>
+        <p>Red Blood Cells (RBC): <span id="rbcResult"></span></p>
+        <p>Hemoglobin: <span id="hemoglobinResult"></span></p>
+        <p>Hematocrit: <span id="hematocritResult"></span></p>
+        <p>Platelets: <span id="plateletsResult"></span></p>
+    </div>
+    <section>
+    <div class="details" id="details"></div>
+    <p class="bottext">
+        For more question you can use our chatbot !
+      </p>
+      <button class="btnbot">
+         <a href="https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=0ee4beb2-0f1c-4ba6-8bad-bdbcfb6f7810" target="_parent">Chatbot</a>
+      </button>
+    </section>
+    <script src="rp.js"></script>
+</body>
+</html>
